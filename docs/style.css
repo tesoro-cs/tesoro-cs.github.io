@@ -1,0 +1,1 @@
+html,body{margin:0;width:100%;height:100%}*{box-sizing:border-box}a{color:#08d}header .navbar{position:fixed;width:100%;height:50px;top:0;left:0;display:flex;background-color:#145;color:#fff}header .navbar>a{color:#fff;font-family:sans-serif;height:50px;display:inline-flex;align-items:center;padding:8px 12px}header .navbar>a:first-child{margin-right:auto}.flex{display:flex}
