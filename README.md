@@ -27,7 +27,7 @@ In order to change the content of the site, you will need to change the code ins
 
 - To make changes to the static files on the site, simply treat `/views` as the root. You can change the contents of any file, add new files, or delete files within the `/views` directory.
 Those changes will be applied to the site automatically when you compile the code.
-- Since you want your code to be compiled as soon as you make any change, let's run `npm run dev`. This will create a local server on `localhost:5700`, and every time you make a change, the files in the `/views` folder will be rebuilt. The resulting webpage will be live on `localhost:5700`.
+- Since you want your code to be compiled as soon as you make any change, let's run `npm run dev`. This will create a local server on `localhost:5100`, and every time you make a change, the files in the `/views` folder will be rebuilt. The resulting webpage will be live on `localhost:5100`.
 - However, you may want to create templated files to reuse variables and HTML code for elements such as headers and footers.
 
 ## Creating Template files
@@ -56,7 +56,7 @@ Examples:
 ## Pushing Changes Back to Remote
 If you are running `npm run dev` already, chances are the compiled files are already in the `/docs` folder. However, let's do these steps for safety and to double-check that everything is correct.
 
-1. Stop the local server with `ctrl + C` in the command line after you are done testing and checking the site on `localhost:5700`
+1. Stop the local server with `ctrl + C` in the command line after you are done testing and checking the site on `localhost:5100`
 2. Run `npm run build` one more time, and make sure there aren't any compile errors. If there are errors, they should be in red and contain the path to the file so you can easily identify which file is causing the problem.
 3. Content should be auto-generated in the `/docs` folder. Give it a quick glance to make sure that the content of the files in the `/docs` folder files is correct.
 4. If all is good, you should see your changes reflected in the `/views` folder (uncompiled) and `/docs` folder (compiled) in your Git client. Once confirmed, you can push your changes.
@@ -65,7 +65,7 @@ If you are running `npm run dev` already, chances are the compiled files are alr
 1. Download/clone/pull the code onto your local machine
 2. `npm run build` if .ENV is not present for you
 `npm run serve` if you just need to see the static site, but not make changes
-3. `npm run dev` to watch and show changes on `localhost:5700`
+3. `npm run dev` to watch and show changes on `localhost:5100`
 4. Make changes
 5. One more `npm run build` to make sure all of the files are compiled correctly. Maks sure there are no errors.
 6. Commit changes and push.
