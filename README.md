@@ -68,5 +68,5 @@ If you are running `npm run dev` already, chances are the compiled files are alr
 `npm run serve` if you just need to see the static site, but not make changes
 3. `npm run dev` to watch and show changes on `localhost:5100`
 4. Make changes
-5. One more `npm run build` to make sure all of the files are compiled correctly. Maks sure there are no errors.
+5. One more `npm run build` to make sure all of the files are compiled correctly. Makes sure there are no errors.
 6. Commit changes and push.
