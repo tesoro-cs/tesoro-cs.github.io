@@ -12,6 +12,7 @@ Requirements:
 1. Clone the repo
 2. Open your editor to the root
 3. Open the command line (terminal or command prompt).
+   - Ensure the terminal is open to the same directory as the repository. It's easiest to open the repository in an IDE, such as VSCode, and use the terminal built into the IDE.
 4. Run `npm install` to install necessary modules.
 5. Run `npm run build` to initialize local environment variables.
    - The newly created `.ENV` file is different for every deploy location (.dev, .org, etc.) and is NOT committed to the repository. More on the .ENV file later.
