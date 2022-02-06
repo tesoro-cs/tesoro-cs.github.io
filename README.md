@@ -12,9 +12,10 @@ Requirements:
 1. Clone the repo
 2. Open your editor to the root
 3. Open the command line (terminal or command prompt).
-4. Run `npm run build` to initialize local environment variables.
+4. Run `npm install` to install necessary modules.
+5. Run `npm run build` to initialize local environment variables.
    - The newly created `.ENV` file is different for every deploy location (.dev, .org, etc.) and is NOT committed to the repository. More on the .ENV file later.
-5. To run the code on a local server, simply type `npm run serve` to see the static site.
+6. To run the code on a local server, simply type `npm run serve` to see the static site.
 
 ## Making Changes in Development
 
